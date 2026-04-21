@@ -1,0 +1,16 @@
+{
+  "name": "new-markets-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that posts new Polymarket markets as rich embeds.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.16.3"
+  }
+}
